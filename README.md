@@ -22,7 +22,9 @@
 ## 실행결과
 #### matplotlib 사용하여 시뮬레이션 결과를 2D 그래프로 출력합니다.
 
-
+![결과1](/images/simul_individual1.png)
+![결과2](/images/simul_individual6.png)
+![결과3](/images/simul_S=2000,Di=3,k=2.png)
 
 _팀으로 진행하는 프로젝트였으나 첨부한 코드는 모두 혼자서 구현했고, 따라서 개인 Repository에 구현한 코드를 첨부하는데 문제 될 소지가 없다고 판단하였습니다._
 
