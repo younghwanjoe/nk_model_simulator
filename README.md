@@ -10,9 +10,12 @@
 
 ## 실행방법
 1. Repository를 clone하고 해당 폴더로 이동합니다.
-2.  python3 .\nk_model_simulator.py 
+2. pip3 install -r requirements.txt 
+(혹은 pip install -r requirements.txt) 명령어를 입력하여 필요 module을 설치합니다.
+3.  python3 .\nk_model_simulator.py  
+(혹은 python .\nk_model_simulator.py) 
 명령어를 입력하여 스크립트를 실행시킵니다.
-3. print되는 설명에 따라 아래의 input들을 차례대로 터미널에 입력합니다.
+4. print되는 설명에 따라 아래의 input들을 차례대로 터미널에 입력합니다.
 - Number of N
 - Type of interaction matrix
 - Number of K
