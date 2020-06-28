@@ -9,7 +9,7 @@ from matplotlib.legend_handler import HandlerLine2D
 
 Record_total_val_C=[]
 
-N=int(input("Input N: "))
+N=int(input("Input N (recommended not more than 6): "))
 
 period=100
 Simul_Val_C=[0 for i in range(period)]
@@ -18,11 +18,14 @@ Simul_Val_RI=[0 for i in range(period)]
 print ('''
        Interaction matrix: 1 - random or 2 - block_diagonal or 3 - custom
       ''')
-which_matrix = int(input("Choose interaction matrix (1 or 2): "))
+which_matrix = int(input("Choose interaction matrix (1 or 2 or 3, Recommended 1): "))
 K = int(input("Input K (integer from 0 to N-1): "))
-
+while K >= N:
+    K = int(input("Input K (integer from 0 to N-1): "))
 
 D=int(input("Input Number of Division(divisor of N): "))
+while N%D != 0:
+    D=int(input("Input Number of Division(divisor of N): "))
 simulsize=int(input("Input Number of simulation: "))
 for simulation in range(simulsize):
 
